@@ -4,17 +4,17 @@
 
 你可以把栈理解为只有一个出入口的羽毛球筒，最底下的羽毛球永远是最先放进的，要想把最底下的羽毛球拿出来，只能将上面的羽毛球一个个取出后才能实现。所以栈的特定是**“先进后出”**或者**“后进先出”**，最先放入的羽毛球处于**“栈底“**位置，最后放入的羽毛球处于**”栈顶“**位置。
 
-![](C:\Users\Administrator\Desktop\structureAndAlgorithm\Data-Structure\Stack\img\02.png)
+![](https://user-images.githubusercontent.com/75166546/114122247-72451580-9922-11eb-889e-f047d55bb181.png)
 
 ### 二、栈的相关操作
 
 1. 进栈：进栈可以理解为向羽毛球筒中塞入羽毛球
 
-   ![](C:\Users\Administrator\Desktop\structureAndAlgorithm\Data-Structure\Stack\img\03.png)
+   ![](https://user-images.githubusercontent.com/75166546/114122287-8e48b700-9922-11eb-8c16-5507e106ec6a.png)
 
 2. 出栈：出栈可以理解为向羽毛球筒中取出羽毛球
 
-   ![](C:\Users\Administrator\Desktop\structureAndAlgorithm\Data-Structure\Stack\img\04.png)
+   ![](https://user-images.githubusercontent.com/75166546/114122314-9a347900-9922-11eb-80d5-6474d0bbc80c.png)
 
 ### 三、用代码实现一个栈结构
 
