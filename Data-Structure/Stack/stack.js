@@ -4,8 +4,8 @@
  * methods
  *  push    入栈
  *  pop     出栈
- *  getTopElement 返回栈顶元素，但不会移除元素
- *  isEmpty  查看栈是否为空
+ *  getTopItem 返回栈顶元素，但不会移除元素
+ *  isEmpty  判断栈是否为空
  *  size    返回栈内元素的个数
  *  toString  以字符串的方式展示栈内的所有元素
  */
@@ -26,11 +26,11 @@ Stack.prototype.pop = function() {
 }
 
 // 返回栈顶元素
-Stack.prototype.getTopElement = function() {
+Stack.prototype.getTopItem = function() {
     return this.list[this.list.length - 1];
 }
 
-// 查看栈是否为空
+// 判断栈是否为空
 Stack.prototype.isEmpty = function() {
     return this.list.length === 0;
 }
@@ -51,10 +51,10 @@ stack.push(9)
 console.log(stack.size()) // 2
 console.log(stack.toString()) // 1,9
 console.log(stack.isEmpty()) // false
-console.log(stack.getTopElement()) // 9
+console.log(stack.getTopItem()) // 9
 console.log(stack.pop()) // 9
 console.log(stack.size()) // 1
-console.log(stack.getTopElement()) // 1
+console.log(stack.getTopItem()) // 1
 
 
 // ------------ 实战：将十进制数转为二进制 ------------
